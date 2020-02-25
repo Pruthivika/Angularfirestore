@@ -41,6 +41,8 @@ import {MatTableModule} from '@angular/material/table';
 import {MatSortModule} from '@angular/material/sort';
 import {MatPaginatorModule} from '@angular/material/paginator';
 import { LoginComponent } from './pages/login/login.component';
+import { HeaderComponent } from './components/header/header.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 
@@ -50,7 +52,9 @@ import { LoginComponent } from './pages/login/login.component';
     ErrorComponent,
     AdminComponent,
     HomeComponent,
-    LoginComponent
+    LoginComponent,
+    HeaderComponent,
+    FooterComponent
    
    
   ],
